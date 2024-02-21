@@ -1,6 +1,6 @@
 Linux下C++并发Web服务器
 
-* 使用 **线程池 + 非阻塞socket + epoll(LT实现)** 的并发模型
+* 使用 **线程池 + 非阻塞socket + epoll(LT与ET均实现)** 的并发模型
 * 解析HTTP请求报文，支持解析**GET和POST**请求
 * 访问服务器数据库实现web端用户**注册、登录**功能
 * 用户可以**查看图片和视频**
@@ -8,7 +8,7 @@ Linux下C++并发Web服务器
 
 介绍
 ------------
-* /src文件下
+* /src
     * 源代码
 * /workpath
     * 工作，资源目录
@@ -61,7 +61,7 @@ Linux下C++并发Web服务器
     ```
 * 启动web服务
    ```C++
-    sh ./start.sh
+    sh start.sh
    ```
    
 * 浏览器端
