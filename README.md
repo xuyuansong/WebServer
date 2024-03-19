@@ -69,3 +69,8 @@ Linux下C++并发Web服务器
     ```C++
     ip:9007 //main.cpp中监听的服务器端口
     ```
+
+## 流程图
+
+![](https://github.com/xuyuansong/WebServer/tree/main/workpath))
+
